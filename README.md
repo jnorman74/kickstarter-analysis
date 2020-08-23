@@ -17,16 +17,19 @@ A new table was created with a column with dollar amount ranges representing the
 ![Outcomes vs Goals](resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
-
+A challenge that came up was getting the totals to add up in the Outcomes based on Goals table. After debugging the code I found a typo and was able to correct so that everything added up correctly. I also had some challenges with creating the grouping of the Row Labels to show the months of the year. With some trial and error I was able to figure it out and display it properly.
 ## Results
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
+- The two conclusions that can be drawn about the Outcomes based on Launch Date are:
+    - The outcomes of Theater campaigns have a higher success outcomes in May and June
+    - The outcomes of Theater campaigns have a lower success outcome in December
+    
 - What can you conclude about the Outcomes based on Goals?
-
+    - That between the dollar ranges of greater than 0 and less than 5000 have the highest success outcome
+    
 - What are some limitations of this dataset?
 
 - What are some other possible tables and/or graphs that we could create?
 
 ### Links
-[Kickstarter Challenge Excel Document](Kickstarter_Challenge.xlsx)
+[Kickstart Challenge Excel Document](Kickstarter_Challenge.xlsx)
