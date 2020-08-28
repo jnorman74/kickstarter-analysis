@@ -4,13 +4,13 @@
 
 ### Purpose
 
-The purpose of this project was create an analysis from Kickstarter data to visualize campaign outcomes based on their launch dates and funding goals. Louise's play 'Fever' came close to its fundraising goal and she would like to know how the different campaigns fared in relation to their funding goals and launch dates. Using the Kickstarted data in Excel with descriptive statistics we were able to show some trends in the data.
+The purpose of this project was create an analysis from Kickstarter data to visualize campaign outcomes based on their launch dates and funding goals. Louise's play 'Fever' came close to its fundraising goal and she would like to know how the different campaigns fared in relation to their funding goals and launch dates. Using the Kickstarter data in Excel with line graphs we were able to show some trends in the data.
 
 ## Analysis and Challenges
 
 ### Analysis of Outcomes Based on Launch Date
 
-A pivot table was created from the Kickstarter worksheet to isolate the each month of the year so that the count of each of the outcomes, successful, failed or canceled could be tallied and graphed. The Parent Category was filtered to show only 'theater' as the criteria. A line chart was created from the pivot table to visualize the relationship between outcomes and launch month. This was an effective way to visually show the trends. See chart below.
+A pivot table was created from the Kickstarter worksheet to isolate the month of the year in order to aggregate the outcomes, successful, failed or canceled and could be graphed. The Parent Category was filtered to show only 'theater' as the criteria. A line chart was created from the pivot table to visualize the relationship between outcomes and launch month. This was an effective way to visually show the trends. See chart below.
 
 ![Theater Outcomes vs Launch:](resources/Theater_Outcomes_vs_Launch.png)
 
@@ -38,7 +38,8 @@ A challenge that came up was getting the totals to add up in the Outcomes based 
   - Another limitation is that the city of origin wasn't present in the data which could add an extra element of Analysis
 
 - What are some other possible tables and/or graphs that we could create?
-  - I can see value in looking at the 'staff_pick' and 'spotlight' fields and creating a line graph to see what kind of relationship they each have with the outcomes. I would imagine that both of these features could potentially boost the number of eyes that see the campaign.
-  
+  - I can see value in looking at the 'staff_pick' and 'spotlight' fields and creating a line graph to see what kind of relationship they each have with the outcomes. I would imagine that both of these features could potentially boost the number of eyes that see the campaign which speaks to my above limitation of not knowing how the campaigns were promoted.
+  - I can see some benefit in creating a table based on 'successful' outcome 'plays' and calculating the correlation coefficient using the CORREL function or the Analysis Toolpak add-in in Excel to see how strongly variables such as 'Average Donation' and 'Goal' are related to each other. Create a scatterplot with a trendline to visualize the trend.
+
 ### Links
 [Kickstart Challenge Excel Document](Kickstarter_Challenge.xlsx)
